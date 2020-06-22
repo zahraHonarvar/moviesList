@@ -1,0 +1,94 @@
+body {
+    background-color: #444;
+    font-family: cursive;
+}
+
+ul {
+    padding-left: 0;
+}
+
+#app {
+    padding: 30px 0
+}
+
+li {
+    color: #fff;
+    list-style: none;
+    margin-bottom: 70px;
+}
+
+.none {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.box {
+    position: absolute !important;
+    width: 90%;
+    height: auto;
+    z-index: 100;
+    border: 1px solid #666;
+    /* display: none; */
+    padding: 20px;
+    text-align: justify;
+    background-color: #fdfdfd;
+    color: #666;
+    position: relative;
+}
+
+.close {
+    color: #Fff;
+    background-color: #f00;
+    width: 22px;
+    height: 22px;
+    text-align: center;
+    line-height: 22px;
+    font-size: 15px;
+    position: absolute;
+    top: 0;
+    left: 0px;
+    cursor: pointer;
+}
+
+.header {
+    background-color: #e0e0e0;
+    padding: 10px;
+    color: #444;
+    font-size: 21px;
+}
+
+.details {
+    background-color: #ff000082;
+    padding: 3px 17px;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    position: absolute;
+    bottom: -15px;
+    right: 14px;
+}
+
+#sortUp {
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    float: right;
+    margin-bottom: 60px;
+    ;
+}
+
+#sortDown {
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    float: left;
+}
+
+.rate {
+    letter-spacing: 2px;
+    font-size: 20px;
+    opacity: 0.7;
+}
